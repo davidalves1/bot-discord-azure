@@ -2,7 +2,8 @@
   "name": "bot-discord-azure",
   "version": "1.0.0",
   "scripts": {
-    "dev": "nodemon src/index.js"
+    "dev": "nodemon src/index.js",
+    "build": "sucrase ./src -d ./dist --transforms imports"
   },
   "main": "src/index.js",
   "repository": "git@github.com:davidalves1/bot-discord-azure.git",
