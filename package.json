@@ -1,0 +1,19 @@
+{
+  "name": "bot-discord-azure",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+  "main": "src/index.js",
+  "repository": "git@github.com:davidalves1/bot-discord-azure.git",
+  "author": "davidalves1 <contato@davidalves1.com> (https://davidalves1.com)",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^11.5.1",
+    "dotenv": "^8.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.1",
+    "sucrase": "^3.10.1"
+  }
+}
